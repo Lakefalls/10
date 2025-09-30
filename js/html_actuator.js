@@ -78,11 +78,17 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value === 377) inner.textContent = 37;
   if (tile.value === 378) inner.textContent = 37;
   if (tile.value === 379) inner.textContent = 37;
+  if (tile.value === -2) inner.textContent = "X";
+  if (tile.value === -8) inner.textContent = "8+";
   if (tile.value === -20) inner.textContent = 20;
   if (tile.value === -21) inner.textContent = 21;
   if (tile.value === -63) inner.textContent = 63;
+  if (tile.value === -97) inner.textContent = 97;
+  if (tile.value === -98) inner.textContent = 98;
+  if (tile.value === -99) inner.textContent = 99;
+  if (tile.value === -100) inner.textContent = 100;
 
-
+  
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
     window.requestAnimationFrame(function () {
