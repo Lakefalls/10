@@ -605,14 +605,14 @@ hr {
     color: #f9f6f2;
     background: #3a590d; }
   .tile.tile-21 .tile-inner {
-    color: #f9f6f2;
-    background: #bd4e0d; }
-  .tile.tile--21 .tile-inner {
     color: #241408;
     background: #68e751; }
+  .tile.tile--21 .tile-inner {
+    color: #f9f6f2;
+    background: #bd4e0d; }
   .tile.tile-22 .tile-inner {
-     color: #f9f6f2;
-     background: #19a1b7; }
+    color: #f9f6f2;
+    background: #19a1b7; }
   .tile.tile-23 .tile-inner {
     color: #f9f6f2;
     background: #890449; }
